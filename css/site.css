@@ -5,3 +5,19 @@
 p.justify {
 	text-align: justify;
 }
+
+.card img {
+	display: block;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+.padded {
+	padding: 10px;
+}
+
+.keyfiguretitle {
+	color: black;
+	font-style: italic;
+	font-size: .75em;
+}
