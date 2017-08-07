@@ -210,8 +210,7 @@ $.ajax({
 });
 
 //example key figures running off a spreadsheet.
-loadKeyFigures('https://docs.google.com/spreadsheets/d/1PwKRHEDkqUfmGDeyLrYwWhO50yfnh2ZHtIyn9W0zgdw/edit?usp=sharing');
-
+loadKeyFigures('https://docs.google.com/spreadsheets/d/1EFFsb87GPVrKqjaBUQCQb6PRbvUEPwoAEHo0BhkTZ28/edit?usp=sharing');
 /*
 Here is a few suggestions:
 Maps of countries with open operations.
