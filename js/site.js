@@ -1,3 +1,4 @@
+// Flatten hxl proxy data into JSON
 function hxlProxyToJSON(input,headers){
     var output = [];
     var keys=[]
@@ -87,7 +88,7 @@ function createAppealsTable(data){
             html1 += '<tr><td><a href="'+url+'" target="_blank">'+d['#crisis+name']+'</a></td><td>'+d['#date+start']+'</td><td>'+d['#date+end']+'</td><td>'+niceFormatNumber(d['#targeted'])+'</td><td>'+niceFormatNumber(d['#meta+value'])+'</td><td>'+niceFormatNumber(d['#meta+funding'])+'</td><td id="coverage'+i+'"></td><td><a href="'+url+'" target="_blank">'+d['#meta+id']+'</a></td></tr>';
         };
         if(d['#severity']==='Minor Emergency'){
-            html2 += '<tr><td><a href="'+url+'" target="_blank">'+d['#crisis+name']+'</a></td><td>'+d['#date+start']+'</td><td>'+d['#date+end']+'</td><td>'+niceFormatNumber(d['#targeted'])+'</td><td>'+niceFormatNumber(d['#meta+value'])+'</td><td><a href="'+url+'" target="_blank">'+d['#meta+id']+'</a></td></tr>';
+            html2 += '<tr><td>'+d['#crisis+name']+'</td><td>'+d['#date+start']+'</td><td>'+d['#date+end']+'</td><td>'+niceFormatNumber(d['#targeted'])+'</td><td>'+niceFormatNumber(d['#meta+value'])+'</td><td>'+d['#meta+id']+'</td></tr>';
         }
     });
     // Send data to appeals or DREFs html tables

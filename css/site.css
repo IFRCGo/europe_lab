@@ -21,3 +21,13 @@ p.justify {
 	font-style: italic;
 	font-size: .75em;
 }
+
+.bold {
+	font-weight: bold;
+}
+
+.country-list li {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
