@@ -64,7 +64,7 @@ function loadKeyFigures(url){
                 console.log(data);
                 var html = '<div class="column small-up-2 medium-up-3 large-up-3"><h1>Areas of Focus: People Reached</h1>';
                 data.forEach(function(d){
-                    html+='<div class="column"><div class="card padded"><img alt="'+d['#meta+title']+' Area of Focus" title="'+d['#meta+title']+'" class="text-center" width="100" src="img/'+d['#meta+icon']+'.svg"><h5 class="keyfiguretitle text-center">'+d['#meta+title']+'</h5><p class="keyfigure text-center">'+niceFormatNumber(d['#indicator'])+'</p><p class="small text-center">Source: <a target="_blank" href="'+d['#meta+url']+'>'+d['#meta+source']+'</a></p></div></div>'
+                    html+='<div class="column"><div class="card padded"><img alt="'+d['#meta+title']+' Area of Focus" title="'+d['#meta+title']+'" class="text-center" width="100" src="img/'+d['#meta+icon']+'.svg"><h5 class="keyfiguretitle text-center">'+d['#meta+title']+'</h5><p class="keyfigure text-center">'+niceFormatNumber(d['#indicator'])+'</p><p class="small text-center">Source: <a target="_blank" href="'+d['#meta+url']+'">'+d['#meta+source']+'</a></p></div></div>'
                 });
                 html+='</div>'; //closing div
 
