@@ -12,6 +12,16 @@ p.justify {
     padding-bottom: 5px;
 }
 
+.member {
+	max-width: 300px;
+	height: 70px;
+	margin: 15px;
+}
+
+.right {
+	float: right;
+}
+
 .padded {
 	padding: 10px;
 }
